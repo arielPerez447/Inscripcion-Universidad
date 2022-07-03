@@ -7,5 +7,9 @@ namespace SistemaDeInscripcionUniversitario.Models.Dominio
         [ForeignKey(nameof(Carrera))]
         public int IdCarrera { get; set; }
         public virtual Carrera Carrera { get; set; }
+
+        public int idLegajo { get; set; }
+
+        public int idHistorial { get; set; }
     }
 }
