@@ -9,5 +9,6 @@ namespace SistemaDeInscripcionUniversitario.Controllers
         {
             return View();
         }
+        //
     }
 }

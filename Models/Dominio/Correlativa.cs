@@ -2,6 +2,7 @@
 
 namespace SistemaDeInscripcionUniversitario.Models.Dominio
 {
+    
     public class Correlativa : EntityBase
     {
         public string NombreCorrelativa { get; set; }

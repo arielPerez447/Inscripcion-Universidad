@@ -9,5 +9,10 @@ namespace SistemaDeInscripcionUniversitario.Controllers
         {
             return View();
         }
+        //Post
+        public ActionResult createCarrera
+        {
+            
+        }
     }
 }
